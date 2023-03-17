@@ -73,8 +73,9 @@
             this.btn_cikis.Name = "btn_cikis";
             this.btn_cikis.Size = new System.Drawing.Size(95, 34);
             this.btn_cikis.TabIndex = 0;
-            this.btn_cikis.Text = "Uygulama Kapat";
+            this.btn_cikis.Text = "Uygulama Çıkış";
             this.btn_cikis.UseVisualStyleBackColor = true;
+            this.btn_cikis.Click += new System.EventHandler(this.btn_cikis_Click);
             // 
             // btn_liste
             // 

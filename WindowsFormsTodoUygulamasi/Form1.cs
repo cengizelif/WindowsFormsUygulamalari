@@ -65,5 +65,21 @@ namespace WindowsFormsTodoUygulamasi
             }
             
         }
+
+        private void btn_cikis_Click(object sender, EventArgs e)
+        {
+            grp_islemler.Enabled = false;
+
+            foreach (Form c in this.MdiChildren)
+            {
+                c.Close();
+            }
+
+            GirisForm girisForm = new GirisForm();
+            girisForm.MdiParent = this;
+            girisForm.StartPosition = FormStartPosition.CenterScreen;
+            girisForm.Show();
+
+        }
     }
 }

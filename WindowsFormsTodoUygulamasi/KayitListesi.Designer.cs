@@ -39,12 +39,6 @@
             this.todoClassBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
             this.todoClassBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.todoClassBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.grp_islemler.SuspendLayout();
             this.grp_todolist.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_todolist)).BeginInit();
@@ -55,12 +49,6 @@
             // 
             // grp_islemler
             // 
-            this.grp_islemler.Controls.Add(this.radioButton2);
-            this.grp_islemler.Controls.Add(this.radioButton1);
-            this.grp_islemler.Controls.Add(this.checkBox4);
-            this.grp_islemler.Controls.Add(this.checkBox3);
-            this.grp_islemler.Controls.Add(this.checkBox2);
-            this.grp_islemler.Controls.Add(this.checkBox1);
             this.grp_islemler.Controls.Add(this.btn_ertelendi);
             this.grp_islemler.Controls.Add(this.btn_iptal);
             this.grp_islemler.Controls.Add(this.btn_beklemede);
@@ -143,68 +131,6 @@
             // 
             this.todoClassBindingSource1.DataSource = typeof(WindowsFormsTodoUygulamasi.TodoClass);
             // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(42, 308);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(80, 17);
-            this.checkBox1.TabIndex = 1;
-            this.checkBox1.Text = "checkBox1";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(42, 331);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(80, 17);
-            this.checkBox2.TabIndex = 1;
-            this.checkBox2.Text = "checkBox1";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // checkBox3
-            // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(42, 354);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(80, 17);
-            this.checkBox3.TabIndex = 1;
-            this.checkBox3.Text = "checkBox1";
-            this.checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // checkBox4
-            // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(42, 377);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(80, 17);
-            this.checkBox4.TabIndex = 1;
-            this.checkBox4.Text = "checkBox1";
-            this.checkBox4.UseVisualStyleBackColor = true;
-            // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(136, 308);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(85, 17);
-            this.radioButton1.TabIndex = 2;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "radioButton1";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(136, 331);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(85, 17);
-            this.radioButton2.TabIndex = 2;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "radioButton1";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
             // KayitListesi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -217,7 +143,6 @@
             this.Text = "KayitListesi";
             this.Load += new System.EventHandler(this.KayitListesi_Load);
             this.grp_islemler.ResumeLayout(false);
-            this.grp_islemler.PerformLayout();
             this.grp_todolist.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_todolist)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.todoClassBindingSource2)).EndInit();
@@ -239,11 +164,5 @@
         private System.Windows.Forms.BindingSource todoClassBindingSource;
         private System.Windows.Forms.BindingSource todoClassBindingSource2;
         private System.Windows.Forms.BindingSource todoClassBindingSource1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
