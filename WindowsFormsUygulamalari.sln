@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormDataGridView", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsTodoUygulamasi", "WindowsFormsTodoUygulamasi\WindowsFormsTodoUygulamasi.csproj", "{77668A5E-7132-49DB-BF8C-689464839C7C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormDosyaVeKlasorIslemleri", "WindowsFormDosyaVeKlasorIslemleri\WindowsFormDosyaVeKlasorIslemleri.csproj", "{6B687915-5E80-49B8-A786-2D1078631B85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dosyave KlasörOrnek", "Dosyave KlasörOrnek\Dosyave KlasörOrnek.csproj", "{B5663F30-4724-40C8-941C-291556515088}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{77668A5E-7132-49DB-BF8C-689464839C7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77668A5E-7132-49DB-BF8C-689464839C7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77668A5E-7132-49DB-BF8C-689464839C7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B687915-5E80-49B8-A786-2D1078631B85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B687915-5E80-49B8-A786-2D1078631B85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B687915-5E80-49B8-A786-2D1078631B85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B687915-5E80-49B8-A786-2D1078631B85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5663F30-4724-40C8-941C-291556515088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5663F30-4724-40C8-941C-291556515088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5663F30-4724-40C8-941C-291556515088}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5663F30-4724-40C8-941C-291556515088}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
