@@ -86,6 +86,7 @@ namespace WindowsFormsTodoUygulamasi
                     }
 
                     this.Close();
+                   
                 }
             }
             else
