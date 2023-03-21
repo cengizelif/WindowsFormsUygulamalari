@@ -41,9 +41,31 @@ namespace Dosyave_KlasörOrnek
                     klasoradi = new DirectoryInfo("C:\\Personeller\\" + liste[i].ulke);
                 }
 
-                File.Create(klasoradi.FullName + "\\" + liste[i].isim +"."+ liste[i].soyisim + ".txt");
+               FileStream fs=File.Create(klasoradi.FullName + "\\" + liste[i].isim +"."+ liste[i].soyisim + ".txt");
+     
+                string personelbilgi = liste[i].isim + " " + liste[i].soyisim + " email:" + liste[i].email + " Ülke:" + liste[i].ulke;
 
+                //1.yöntem
+
+                byte[] bytedizi = new UTF8Encoding(true).GetBytes(personelbilgi);
+                fs.Write(bytedizi, 0, bytedizi.Length);
+
+                fs.Close();
+           
+
+                //2.yöntem
+              //  File.AppendAllText(klasoradi.FullName + "\\" + liste[i].isim + "." + liste[i].soyisim + ".txt", personelbilgi);
             }   
+        }
+
+        private void lst_personel_DoubleClick(object sender, EventArgs e)
+        {
+            Personel p = (Personel)lst_personel.SelectedItem;
+            txt_isim.Text = p.isim;
+            txt_soyisim.Text = p.soyisim;
+            txt_email.Text = p.email;
+            txt_firma.Text = p.firmaAdi;
+            txt_ulke.Text = p.ulke;
         }
     }
 }
